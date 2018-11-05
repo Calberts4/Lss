@@ -19,7 +19,7 @@
 
 /* Container around content */
 .container {
-		padding: 10px 40px;
+		padding: 10px 20px;
 		position: relative;
 		background-color: inherit;
 		width: 50%;
@@ -41,7 +41,7 @@
 
 /* Place the container to the left */
 .left {
-		right: 6.75%;
+		right: 3.70%;
 }
 
 /* Place the container to the right */
