@@ -3356,150 +3356,180 @@
   width: 480px;
   height: 480px;
   margin: 50px auto;
-  padding-top: 75px;
+  padding-top: 10px;
   background: url("smileband.jpg") no-repeat;
   text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   color: #FFF;
-  font-size: 3em;
+  font-size: 32px;
 }
 .form {
   width: 480px;
   height: 480px;
   margin: 50px auto;
-  padding-top: 75px;
+  padding-top: 10px;
   background: url("feb11971.jpg")no-repeat;
   text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   color: #FFF;
-  font-size: 3em;
+  font-size: 32px;
 }
 .debut {
   width: 480px;
   height: 480px;
   margin: 50px auto;
-  padding-top: 75px;
+  padding-top: 10px;
   background: url("jan11971.jpg")no-repeat;
   text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   color: #FFF;
-  font-size: 3em;
+  font-size: 32px;
 }
 .sheerheartattack {
   width: 480px;
   height: 480px;
   margin: 50px auto;
-  padding-top: 75px;
+  padding-top: 10px;
   background: url("queensheer.jpg") no-repeat;
   text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   color: #FFF;
-  font-size: 3em;
+  font-size: 32px;
 }
 .nightattheopera {
   width: 480px;
   height: 480px;
   margin: 50px auto;
-  padding-top: 75px;
+  padding-top: 10px;
   background: url("brqueen.jpg")no-repeat;
   text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   color: #FFF;
-  font-size: 3em;
+  font-size: 32px;
 }
 .dayattheraces {
   width: 480px;
   height: 480px;
   margin: 50px auto;
-  padding-top: 75px;
+  padding-top: 10px;
   background: url("somebody to love.jpg") no-repeat;
   text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   color: #FFF;
-  font-size: 3em;
+  font-size: 32px;
 }
 .wewillrockyou {
   width: 480px;
   height: 480px;
   margin: 50px auto;
-  padding-top: 75px;
+  padding-top: 10px;
   background: url("newsoftheworld.jpg") no-repeat;
   text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   color: #FFF;
-  font-size: 3em;
+  font-size: 32px;
 }
 .topoftheworld {
   width: 480px;
   height: 480px;
   margin: 50px auto;
-  padding-top: 75px;
+  padding-top: 10px;
   background: url("ontopoftheworld.jpg") no-repeat;
   text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   color: #FFF;
-  font-size: 3em;
+  font-size: 32px;
 }
 .breakfree {
   width: 480px;
   height: 480px;
   margin: 50px auto;
-  padding-top: 75px;
+  padding-top: 10px;
   background: url("iwanttobeakfree.jpg") no-repeat;
   text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   color: #FFF;
-  font-size: 3em;
+  font-size: 32px;
 }
 .liveaid {
   width: 480px;
   height: 480px;
   margin: 50px auto;
-  padding-top: 75px;
+  padding-top: 10px;
   background: url("mercrury-live-aid.jpg") no-repeat;
   text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   color: #FFF;
-  font-size: 3em;
+  font-size: 32px;
 }
 .daysofourlives {
   width: 480px;
   height: 480px;
   margin: 50px auto;
-  padding-top: 75px;
+  padding-top: 10px;
   background: url("daysofourlife.jpg") no-repeat;
   text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   color: #FFF;
-  font-size: 3em;
+  font-size: 32px;
 }
 .comfirming {
   width: 480px;
   height: 480px;
   margin: 50px auto;
-  padding-top: 75px;
+  padding-top: 10px;
   background: url("confirming.jpg") no-repeat;
   text-align: center;
+  font-family: 'Ubuntu', sans-serif;
   color: #FFF;
-  font-size: 3em;
+  font-size: 32px;
 }
 .death {
   width: 480px;
   height: 480px;
   margin: 50px auto;
-  padding-top: 75px;
+  padding-top: 10px;
   background: url("fmdeath.jpg") no-repeat;
   text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   color: #FFF;
-  font-size: 3em;
+  font-size: 32px;
 }
 .phoenixtrust {
   width: 480px;
   height: 480px;
   margin: 50px auto;
-  padding-top: 75px;
+  padding-top: 10px;
   background: url("tribute.jpg") no-repeat;
   text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   color: #FFF;
-  font-size: 3em;
+  font-size: 32px;
 }
 .lastalbum {
   width: 480px;
   height: 480px;
   margin: 50px auto;
-  padding-top: 75px;
+  padding-top: 10px;
   background: url("madeinheaven.jpg") no-repeat;
   text-align: center;
+  word-wrap: break-word;
+  font-family: 'Ubuntu', sans-serif;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   color: #FFF;
-  font-size: 3em;
+  font-size: 32px;
 }
 [data-aos=fade-down]{transform:translate3d(0,-100px,0)}
