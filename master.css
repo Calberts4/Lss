@@ -15,7 +15,7 @@
   z-index: 101;
   transition: all 2.5s;
 }
-#fin{
+/*#fin{
   height:100%;
   width:100%;
   background: url("fin.png") no-repear;
@@ -24,7 +24,7 @@
   left:400px;
   z-index: 101;
   transition: all 2.5s;
-}
+}*/
 #curtain1 {
   height: 600px;
   width: 50%;
@@ -61,7 +61,7 @@
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   color: #FFF;
   font-size: 32px;
-  transition: all 3s;
+  transition: all 1s;
 }
 .invisible{
   opacity: 0;
@@ -81,156 +81,220 @@
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   color: #FFF;
   font-size: 32px;
-  transition: all 4s;
+  transition: all 2s;
 }
 #debut {
   width: 480px;
   height: 480px;
   margin: 50px auto;
   padding-top: 10px;
+  position: fixed;
+  top:100px;
+  right:-500px;
+  z-index: 3;
   background: url("jan11971.jpg")no-repeat;
   text-align: center;
   font-family: 'Ubuntu', sans-serif;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   color: #FFF;
   font-size: 29px;
+  transition: all 3s;
 }
 #sheerheartattack {
   width: 480px;
   height: 480px;
   margin: 50px auto;
   padding-top: 10px;
+  position: fixed;
+  top: 100px;
+  left: -500px;
+  z-index: 4;
   background: url("queensheer.jpg") no-repeat;
   text-align: center;
   font-family: 'Ubuntu', sans-serif;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   color: #FFF;
   font-size: 32px;
+  transition: all 4s;
 }
 #nightattheopera {
   width: 480px;
   height: 480px;
   margin: 50px auto;
   padding-top: 10px;
+  position: fixed;
+  top:100px;
+  right:-500px;
+  z-index: 5;
   background: url("brqueen.jpg")no-repeat;
   text-align: center;
   font-family: 'Ubuntu', sans-serif;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   color: #FFF;
   font-size: 32px;
+  transition: all 5s;
 }
 #dayattheraces {
   width: 480px;
   height: 480px;
   margin: 50px auto;
   padding-top: 10px;
+  position: fixed;
+  top: 100px;
+  left:-500px;
+  z-index: 6;
   background: url("somebody to love.jpg") no-repeat;
   text-align: center;
   font-family: 'Ubuntu', sans-serif;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   color: #FFF;
   font-size: 32px;
+  transition: all 6s
 }
 #wewillrockyou {
   width: 480px;
   height: 480px;
   margin: 50px auto;
   padding-top: 10px;
+  position: fixed;
+  top:100px;
+  right:-500px;
+  z-index: 7;
   background: url("newsoftheworld.jpg") no-repeat;
   text-align: center;
   font-family: 'Ubuntu', sans-serif;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   color: #FFF;
   font-size: 32px;
+  transition: all 7s;
 }
 #topoftheworld {
   width: 480px;
   height: 480px;
   margin: 50px auto;
   padding-top: 10px;
+  position: fixed;
+  top: 100px;
+  left:-500px;
+  z-index: 8;
   background: url("ontopoftheworld.jpg") no-repeat;
   text-align: center;
   font-family: 'Ubuntu', sans-serif;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   color: #FFF;
   font-size: 32px;
+  transition: all 8s;
 }
 #breakfree {
   width: 480px;
   height: 480px;
   margin: 50px auto;
   padding-top: 10px;
+  position: fixed;
+  top: 100px;
+  right:-500px;
+  z-index: 9;
   background: url("iwanttobeakfree.jpg") no-repeat;
   text-align: center;
   font-family: 'Ubuntu', sans-serif;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   color: #FFF;
   font-size: 32px;
+  transition: all 9s;
 }
 #liveaid {
   width: 480px;
   height: 480px;
   margin: 50px auto;
   padding-top: 10px;
+  position: fixed;
+  top: 100px;
+  left: -500px;
+  z-index: 10;
   background: url("mercrury-live-aid.jpg") no-repeat;
   text-align: center;
   font-family: 'Ubuntu', sans-serif;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   color: #FFF;
   font-size: 32px;
+  transition: all 10s;
 }
 #daysofourlives {
   width: 480px;
   height: 480px;
   margin: 50px auto;
   padding-top: 10px;
+  position: fixed;
+  top: 100px;
+  right: -500px;
+  z-index: 11;
   background: url("daysofourlife.jpg") no-repeat;
   text-align: center;
   font-family: 'Ubuntu', sans-serif;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   color: #FFF;
   font-size: 32px;
+  transition: all 11s
 }
 #comfirming {
   width: 480px;
   height: 480px;
   margin: 50px auto;
   padding-top: 10px;
+  position: fixed;
+  top: 100px;
+  left: -500px;
+  z-index: 12;
   background: url("confirming.jpg") no-repeat;
   text-align: center;
   font-family: 'Ubuntu', sans-serif;
   color: #FFF;
   font-size: 32px;
+  transition: all 12s;
 }
 #death {
   width: 480px;
   height: 480px;
   margin: 50px auto;
   padding-top: 10px;
+  position: fixed;
+  top: 100px;
+  right: -500px;
+  z-index: 13;
   background: url("fmdeath.jpg") no-repeat;
   text-align: center;
   font-family: 'Ubuntu', sans-serif;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   color: #FFF;
   font-size: 32px;
+  transition: all 13s;
 }
 #phoenixtrust {
   width: 480px;
   height: 480px;
   margin: 50px auto;
   padding-top: 10px;
+  position: fixed;
+  top: 100px;
+  left: -500px;
+  z-index: 14;
   background: url("tribute.jpg") no-repeat;
   text-align: center;
   font-family: 'Ubuntu', sans-serif;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   color: #FFF;
   font-size: 32px;
+  transition: all 14s;
 }
 #lastalbum {
   width: 480px;
   height: 480px;
   margin: 50px auto;
   padding-top: 10px;
+  position: fixed;
+  top: 100px;
+  right: -500px;
+  z-index: 15;
   background: url("madeinheaven.jpg") no-repeat;
   text-align: center;
   word-wrap: break-word;
@@ -238,4 +302,5 @@
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   color: #FFF;
   font-size: 32px;
+  transition: all 15s;
 }
