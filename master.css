@@ -54,7 +54,7 @@
   position: absolute;
   top: 100px;
   right: -500px;
-  z-index: 1;
+  z-index: 2;
   background: url("smileband.jpg") no-repeat;
   text-align: center;
   font-family: 'Ubuntu', sans-serif;
@@ -72,9 +72,9 @@
   margin: 50px auto;
   padding-top: 10px;
   position: absolute;
-  top: 100px;
+  top: 680px;
   left: -500px;
-  z-index: 2;
+  z-index: 3;
   background: url("feb11971.jpg")no-repeat;
   text-align: center;
   font-family: 'Ubuntu', sans-serif;
@@ -91,7 +91,7 @@
   position: absolute;
   top:100px;
   right:-500px;
-  z-index: 3;
+  z-index: 4;
   background: url("jan11971.jpg")no-repeat;
   text-align: center;
   font-family: 'Ubuntu', sans-serif;
@@ -108,7 +108,7 @@
   position: absolute;
   top: 100px;
   left: -500px;
-  z-index: 4;
+  z-index: 5;
   background: url("queensheer.jpg") no-repeat;
   text-align: center;
   font-family: 'Ubuntu', sans-serif;
@@ -125,7 +125,7 @@
   position: absolute;
   top:100px;
   right:-500px;
-  z-index: 5;
+  z-index: 6;
   background: url("brqueen.jpg")no-repeat;
   text-align: center;
   font-family: 'Ubuntu', sans-serif;
@@ -142,7 +142,7 @@
   position: absolute;
   top: 100px;
   left:-500px;
-  z-index: 6;
+  z-index: 7;
   background: url("somebody to love.jpg") no-repeat;
   text-align: center;
   font-family: 'Ubuntu', sans-serif;
@@ -159,7 +159,7 @@
   position: absolute;
   top:100px;
   right:-500px;
-  z-index: 7;
+  z-index: 8;
   background: url("newsoftheworld.jpg") no-repeat;
   text-align: center;
   font-family: 'Ubuntu', sans-serif;
@@ -176,7 +176,7 @@
   position: absolute;
   top: 100px;
   left:-500px;
-  z-index: 8;
+  z-index: 9;
   background: url("ontopoftheworld.jpg") no-repeat;
   text-align: center;
   font-family: 'Ubuntu', sans-serif;
@@ -193,7 +193,7 @@
   position: absolute;
   top: 100px;
   right:-500px;
-  z-index: 9;
+  z-index: 10;
   background: url("iwanttobeakfree.jpg") no-repeat;
   text-align: center;
   font-family: 'Ubuntu', sans-serif;
@@ -210,7 +210,7 @@
   position: absolute;
   top: 100px;
   left: -500px;
-  z-index: 10;
+  z-index: 11;
   background: url("mercrury-live-aid.jpg") no-repeat;
   text-align: center;
   font-family: 'Ubuntu', sans-serif;
@@ -227,7 +227,7 @@
   position: absolute;
   top: 100px;
   right: -500px;
-  z-index: 11;
+  z-index: 12;
   background: url("daysofourlife.jpg") no-repeat;
   text-align: center;
   font-family: 'Ubuntu', sans-serif;
@@ -244,7 +244,7 @@
   position: absolute;
   top: 100px;
   left: -500px;
-  z-index: 12;
+  z-index: 13;
   background: url("confirming.jpg") no-repeat;
   text-align: center;
   font-family: 'Ubuntu', sans-serif;
@@ -260,7 +260,7 @@
   position: absolute;
   top: 100px;
   right: -500px;
-  z-index: 13;
+  z-index: 14;
   background: url("fmdeath.jpg") no-repeat;
   text-align: center;
   font-family: 'Ubuntu', sans-serif;
@@ -277,7 +277,7 @@
   position: absolute;
   top: 100px;
   left: -500px;
-  z-index: 14;
+  z-index: 15;
   background: url("tribute.jpg") no-repeat;
   text-align: center;
   font-family: 'Ubuntu', sans-serif;
@@ -294,7 +294,7 @@
   position: absolute;
   top: 100px;
   right: -500px;
-  z-index: 15;
+  z-index: 16;
   background: url("madeinheaven.jpg") no-repeat;
   text-align: center;
   word-wrap: break-word;
