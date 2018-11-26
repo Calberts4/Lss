@@ -70,8 +70,6 @@ var center = "390px";
     curtain2.classList.remove("invisible");
     smile.style.right = out;
     smile.classList.add("invisible");
-    form.style.left = out;
-    form.classList.add("invisible");
     debut.style.right = out;
     debut.classList.add("invisible");
     sheerheartattack.style.left = out;
@@ -98,5 +96,12 @@ var center = "390px";
     phoenixtrust.classList.add("invisible");
     lastalbum.style.right = out;
     lastalbum.classList.add("invisible");
+}
+if (distance >100) {
+  form.style.left = center;
+  form.classList.remove("invisible");
+} else {
+  form.style.left = out;
+  form.classList.add("invisible");
 }
 }
