@@ -23,7 +23,7 @@ var phoenixtrust = document.getElementById("phoenixtrust");
 var lastalbum = document.getElementById("lastalbum");
 
 var out ="-500px";
-var center = "390px";
+var center = "42%";
   if(distance >5){
     bandlogo.style.top = "-100px";
     bandlogo.classList.add("invisible");
