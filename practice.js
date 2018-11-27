@@ -33,8 +33,6 @@ var center = "50%";
     curtain2.classList.add("invisible");
     smile.style.right = center;
     smile.classList.remove("invisible");
-    form.style.left = center;
-    form.classList.remove("invisible");
     //debut.style.right = center;
     //debut.classList.remove("invisible");
     //.style.left = center;
