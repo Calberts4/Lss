@@ -39,14 +39,21 @@ var center = "50%";
     curtain1.classList.remove("invisible");
     curtain2.classList.remove("invisible");
     }
-if (distance >580) {
-  smile.style.right = center;
-  smile.classList.remove("invisible");
-} else {
+    if (distance >710) {
+      smile.style.right = center;
+      smile.classList.remove("invisible");
+    } else {
+      smile.style.right = out;
+      smile.classList.add("invisible");
+    }
+    if (distance > 1080) {
+   smile.style.top = 1 + distance * 0.99 + "px";
+ }else{
+   smile.style.top = 1 + distance + "px";
+   }
+if (distance >1080) {
   smile.style.right = out;
   smile.classList.add("invisible");
-}
-if (distance >980) {
   form.style.left = center;
   form.classList.remove("invisible");
 } else {

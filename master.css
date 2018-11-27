@@ -60,10 +60,9 @@
   width: 480px;
   height: 480px;
   margin-right: -240px;
-  padding-top: 10px;
   position: absolute;
-  top: 745px;
-  right: -500px;
+  top: 1000px;
+  right: 90px;
   z-index: 2;
   background: url("smileband.jpg") no-repeat;
   text-align: center;
