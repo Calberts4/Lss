@@ -39,6 +39,7 @@ var center = "50%";
     curtain1.classList.remove("invisible");
     curtain2.classList.remove("invisible");
     }
+
     if (distance >710) {
       smile.style.right = center;
       smile.classList.remove("invisible");
@@ -46,11 +47,13 @@ var center = "50%";
       smile.style.right = out;
       smile.classList.add("invisible");
     }
+
     if (distance > 1080) {
    smile.style.top = 1 + distance * 0.99 + "px";
  }else{
    smile.style.top = 1 + distance + "px";
    }
+
 if (distance >1080) {
   smile.style.right = out;
   smile.classList.add("invisible");
@@ -60,92 +63,196 @@ if (distance >1080) {
   form.style.left = out;
   form.classList.add("invisible");
 }
-if (distance >1380) {
+if (distance > 1470) {
+form.style.top = 1 + distance * 0.99 + "px";
+}else{
+form.style.top = 1 + distance + "px";
+}
+if (distance >1470) {
+  form.style.left = out;
+  form.classList.add("invisible");
   debut.style.right = center;
   debut.classList.remove("invisible");
 } else {
   debut.style.right = out;
   debut.classList.add("invisible");
 }
-if (distance >1780) {
+if (distance > 1840) {
+debut.style.top = 1 + distance * 0.99 + "px";
+}else{
+debut.style.top = 1 + distance + "px";
+}
+if (distance >1840) {
+  debut.style.right = out;
+  debut.classList.add("invisible");
   sheerheartattack.style.left = center;
   sheerheartattack.classList.remove("invisible");
 } else {
   sheerheartattack.style.left = out;
   sheerheartattack.classList.add("invisible");
 }
-if (distance >2480) {
+if (distance > 2210) {
+sheerheartattack.style.top = 1 + distance * 0.99 + "px";
+}else{
+sheerheartattack.style.top = 1 + distance + "px";
+}
+if (distance >2210) {
+  sheerheartattack.style.left = out;
+  sheerheartattack.classList.add("invisible");
   nightattheopera.style.right = center;
   nightattheopera.classList.remove("invisible");
 } else {
   nightattheopera.style.right = out;
   nightattheopera.classList.add("invisible");
 }
-if (distance >2880) {
+if (distance > 2580) {
+nightattheopera.style.top = 1 + distance * 0.99 + "px";
+}else{
+nightattheopera.style.top = 1 + distance + "px";
+}
+if (distance > 2580) {
+  nightattheopera.style.right = out;
+  nightattheopera.classList.add("invisible");
   dayattheraces.style.left = center;
   dayattheraces.classList.remove("invisible");
 } else {
   dayattheraces.style.left = out;
   dayattheraces.classList.add("invisible");
 }
-if (distance >3580) {
+if (distance > 2950) {
+dayattheraces.style.top = 1 + distance * 0.99 + "px";
+}else{
+dayattheraces.style.top = 1 + distance + "px";
+}
+if (distance > 2950) {
+  dayattheraces.style.left = out;
+  dayattheraces.classList.add("invisible");
   wewillrockyou.style.right = center;
   wewillrockyou.classList.remove("invisible");
 } else {
   wewillrockyou.style.right = out;
   wewillrockyou.classList.add("invisible");
 }
-if (distance >3980) {
+if (distance > 3320) {
+wewillrockyou.style.top = 1 + distance * 0.99 + "px";
+}else{
+wewillrockyou.style.top = 1 + distance + "px";
+}
+if (distance > 3320) {
+  wewillrockyou.style.right = out;
+  wewillrockyou.classList.add("invisible");
   topoftheworld.style.left = center;
   topoftheworld.classList.remove("invisible");
 } else {
   topoftheworld.style.left = out;
   topoftheworld.classList.add("invisible");
 }
-if (distance >4480) {
+if (distance > 3690) {
+topoftheworld.style.top = 1 + distance * 0.99 + "px";
+}else{
+topoftheworld.style.top = 1 + distance + "px";
+}
+if (distance >3690) {
+  topoftheworld.style.left = out;
+  topoftheworld.classList.add("invisible");
   breakfree.style.right = center;
   breakfree.classList.remove("invisible");
 } else {
   breakfree.style.right = out;
   breakfree.classList.add("invisible");
 }
-if (distance >5300) {
+if (distance > 4060) {
+breakfree.style.top = 1 + distance * 0.99 + "px";
+}else{
+breakfree.style.top = 1 + distance + "px";
+}
+if (distance >4060) {
+  breakfree.style.right = out;
+  breakfree.classList.add("invisible");
   liveaid.style.left = center;
   liveaid.classList.remove("invisible");
 } else {
   liveaid.style.left = out;
   liveaid.classList.add("invisible");
-}if (distance >5800) {
+}
+if (distance > 4430) {
+liveaid.style.top = 1 + distance * 0.99 + "px";
+}else{
+liveaid.style.top = 1 + distance + "px";
+}
+if (distance >4430) {
+  liveaid.style.left = out;
+  liveaid.classList.add("invisible");
   daysofourlives.style.right = center;
   daysofourlives.classList.remove("invisible");
 } else {
   daysofourlives.style.right = out;
   daysofourlives.classList.add("invisible");
-}if (distance >6100) {
+}
+if (distance > 4800) {
+daysofourlives.style.top = 1 + distance * 0.99 + "px";
+}else{
+daysofourlives.style.top = 1 + distance + "px";
+}
+if (distance >4800) {
+  daysofourlives.style.right = out;
+  daysofourlives.classList.add("invisible");
   comfirming.style.left = center;
   comfirming.classList.remove("invisible");
 } else {
   comfirming.style.left = out;
   comfirming.classList.add("invisible");
-}if (distance >6900) {
+}
+if (distance > 5170) {
+comfirming.style.top = 1 + distance * 0.99 + "px";
+}else{
+comfirming.style.top = 1 + distance + "px";
+}
+if (distance >5170) {
+  comfirming.style.left = out;
+  comfirming.classList.add("invisible");
   death.style.right = center;
   death.classList.remove("invisible");
 } else {
   death.style.right = out;
   death.classList.add("invisible");
-}if (distance >7300) {
+}
+if (distance > 5540) {
+death.style.top = 1 + distance * 0.99 + "px";
+}else{
+death.style.top = 1 + distance + "px";
+}
+if (distance >5540) {
+  death.style.right = out;
+  death.classList.add("invisible");
   phoenixtrust.style.left = center;
   phoenixtrust.classList.remove("invisible");
 } else {
   phoenixtrust.style.left = out;
   phoenixtrust.classList.add("invisible");
-}if (distance >7800) {
+}
+if (distance > 5910) {
+phoenixtrust.style.top = 1 + distance * 0.99 + "px";
+}else{
+phoenixtrust.style.top = 1 + distance + "px";
+}
+if (distance >5910) {
+  phoenixtrust.style.left = out;
+  phoenixtrust.classList.add("invisible");
   lastalbum.style.right = center;
   lastalbum.classList.remove("invisible");
 } else {
   lastalbum.style.right = out;
   lastalbum.classList.add("invisible");
-}if (distance >8677) {
+}
+if (distance > 6280) {
+lastalbum.style.top = 1 + distance * 0.99 + "px";
+}else{
+lastalbum.style.top = 1 + distance + "px";
+}
+if (distance >6280) {
+  lastalbum.style.right = out;
+  lastalbum.classList.add("invisible");
   fin.style.right = "-1000px";
 } else {
   fin.style.right = "500px";
