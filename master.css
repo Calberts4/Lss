@@ -15,16 +15,17 @@
   z-index: 101;
   transition: all 2.5s;
 }
-/*#fin{
+#fin{
   height:100%;
   width:100%;
-  background: url("fin.png") no-repear;
+  margin-right: 500px;
+  background: url("fin.png") no-repeat;
   position: absolute;
   top:9000px;
-  left:400px;
+  right:-1000px;
   z-index: 101;
   transition: all 2.5s;
-}*/
+}
 #curtain1 {
   height: 100%;
   width: 50%;
@@ -47,8 +48,8 @@
 }
 #consert{
   height: 100%;
-  width:100;
-  background: url("Queen4.jpg") no-repeat;
+  width:100%;
+  background: url("queenliveaid.jpg") no-repeat;
   position; absolute;
   top:0;
   right:0;
@@ -61,7 +62,7 @@
   margin-right: -240px;
   padding-top: 10px;
   position: absolute;
-  top: 100px;
+  top: 745px;
   right: -500px;
   z-index: 2;
   background: url("smileband.jpg") no-repeat;
@@ -81,7 +82,7 @@
   margin-left: -240px;
   padding-top: 10px;
   position: absolute;
-  top: 680px;
+  top: 1275px;
   left: -500px;
   z-index: 3;
   background: url("feb11971.jpg")no-repeat;
@@ -90,15 +91,15 @@
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   color: #FFF;
   font-size: 32px;
-  transition: all 2s;
+  transition: all 1s;
 }
 #debut {
   width: 480px;
   height: 480px;
-  margin: 50px auto;
+  margin-right: -240px;
   padding-top: 10px;
   position: absolute;
-  top:100px;
+  top: 1805px;
   right:-500px;
   z-index: 4;
   background: url("jan11971.jpg")no-repeat;
@@ -107,15 +108,15 @@
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   color: #FFF;
   font-size: 29px;
-  transition: all 3s;
+  transition: all 1s;
 }
 #sheerheartattack {
   width: 480px;
   height: 480px;
-  margin: 50px auto;
+  margin-left: -240px;
   padding-top: 10px;
   position: absolute;
-  top: 100px;
+  top: 2335px;
   left: -500px;
   z-index: 5;
   background: url("queensheer.jpg") no-repeat;
@@ -124,15 +125,15 @@
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   color: #FFF;
   font-size: 32px;
-  transition: all 4s;
+  transition: all 1s;
 }
 #nightattheopera {
   width: 480px;
   height: 480px;
-  margin: 50px auto;
+  margin-right: -240px;
   padding-top: 10px;
   position: absolute;
-  top:100px;
+  top: 2865px;
   right:-500px;
   z-index: 6;
   background: url("brqueen.jpg")no-repeat;
@@ -141,15 +142,15 @@
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   color: #FFF;
   font-size: 32px;
-  transition: all 5s;
+  transition: all 1s;
 }
 #dayattheraces {
   width: 480px;
   height: 480px;
-  margin: 50px auto;
+  margin-left: -240px;
   padding-top: 10px;
   position: absolute;
-  top: 100px;
+  top: 3395px;
   left:-500px;
   z-index: 7;
   background: url("somebody to love.jpg") no-repeat;
@@ -158,15 +159,15 @@
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   color: #FFF;
   font-size: 32px;
-  transition: all 6s
+  transition: all 1s
 }
 #wewillrockyou {
   width: 480px;
   height: 480px;
-  margin: 50px auto;
+  margin-right: -240px;
   padding-top: 10px;
   position: absolute;
-  top:100px;
+  top:3925px;
   right:-500px;
   z-index: 8;
   background: url("newsoftheworld.jpg") no-repeat;
@@ -175,15 +176,15 @@
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   color: #FFF;
   font-size: 32px;
-  transition: all 7s;
+  transition: all 1s;
 }
 #topoftheworld {
   width: 480px;
   height: 480px;
-  margin: 50px auto;
+  margin-left: -240px;
   padding-top: 10px;
   position: absolute;
-  top: 100px;
+  top: 4455px;
   left:-500px;
   z-index: 9;
   background: url("ontopoftheworld.jpg") no-repeat;
@@ -192,15 +193,15 @@
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   color: #FFF;
   font-size: 32px;
-  transition: all 8s;
+  transition: all 1s;
 }
 #breakfree {
   width: 480px;
   height: 480px;
-  margin: 50px auto;
+  margin-right: -240px;
   padding-top: 10px;
   position: absolute;
-  top: 100px;
+  top: 4985px;
   right:-500px;
   z-index: 10;
   background: url("iwanttobeakfree.jpg") no-repeat;
@@ -209,15 +210,15 @@
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   color: #FFF;
   font-size: 32px;
-  transition: all 9s;
+  transition: all 1s;
 }
 #liveaid {
   width: 480px;
   height: 480px;
-  margin: 50px auto;
+  margin-left: -240px;
   padding-top: 10px;
   position: absolute;
-  top: 100px;
+  top: 5515px;
   left: -500px;
   z-index: 11;
   background: url("mercrury-live-aid.jpg") no-repeat;
@@ -226,15 +227,15 @@
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   color: #FFF;
   font-size: 32px;
-  transition: all 10s;
+  transition: all 1s;
 }
 #daysofourlives {
   width: 480px;
   height: 480px;
-  margin: 50px auto;
+  margin-right: -240px;
   padding-top: 10px;
   position: absolute;
-  top: 100px;
+  top: 6045px;
   right: -500px;
   z-index: 12;
   background: url("daysofourlife.jpg") no-repeat;
@@ -243,15 +244,16 @@
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   color: #FFF;
   font-size: 32px;
-  transition: all 11s
+  transition: all 1s
 }
 #comfirming {
   width: 480px;
   height: 480px;
-  margin: 50px auto;
+  margin-left: -240px;
+  margin-right: -240px;
   padding-top: 10px;
   position: absolute;
-  top: 100px;
+  top: 6575px;
   left: -500px;
   z-index: 13;
   background: url("confirming.jpg") no-repeat;
@@ -259,15 +261,15 @@
   font-family: 'Ubuntu', sans-serif;
   color: #FFF;
   font-size: 32px;
-  transition: all 12s;
+  transition: all 1s;
 }
 #death {
   width: 480px;
   height: 480px;
-  margin: 50px auto;
+  margin-right: -240px;
   padding-top: 10px;
   position: absolute;
-  top: 100px;
+  top: 7105px;
   right: -500px;
   z-index: 14;
   background: url("fmdeath.jpg") no-repeat;
@@ -276,15 +278,15 @@
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   color: #FFF;
   font-size: 32px;
-  transition: all 13s;
+  transition: all 1s;
 }
 #phoenixtrust {
   width: 480px;
   height: 480px;
-  margin: 50px auto;
+  margin-left: -240px;
   padding-top: 10px;
   position: absolute;
-  top: 100px;
+  top: 7635px;
   left: -500px;
   z-index: 15;
   background: url("tribute.jpg") no-repeat;
@@ -293,15 +295,15 @@
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   color: #FFF;
   font-size: 32px;
-  transition: all 14s;
+  transition: all 1s;
 }
 #lastalbum {
   width: 480px;
   height: 480px;
-  margin: 50px auto;
+  margin-right: -240px;
   padding-top: 10px;
   position: absolute;
-  top: 100px;
+  top: 8165px;
   right: -500px;
   z-index: 16;
   background: url("madeinheaven.jpg") no-repeat;
@@ -311,5 +313,5 @@
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   color: #FFF;
   font-size: 32px;
-  transition: all 15s;
+  transition: all 1s;
 }
