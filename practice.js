@@ -275,9 +275,9 @@ if (distance > 6500) {
   closingremarks.style.top = 1 + distance + "px";
 }
 if (distance > 6500) {
-  closingremarks.background ="queenking.jpg"
+  closingremarks.background = ("queenking.jpg");
 }else{
-  closingremarks.background="queenhard.jpg"
+  closingremarks.background = ("queenhard.jpg");
 }
 if (distance > 6800) {
   closingremarks.background = "queenred.jpg"
