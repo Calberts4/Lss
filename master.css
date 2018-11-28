@@ -21,7 +21,7 @@
   margin-right: 500px;
   background: url("fin.png") no-repeat;
   position: absolute;
-  top:9000px;
+  top: 6350px;
   right:-1000px;
   z-index: 101;
   transition: all 2.5s;
@@ -60,8 +60,9 @@
   width: 480px;
   height: 480px;
   margin-right: -240px;
+  padding-top: 10px;
   position: absolute;
-  top: 1000px;
+  top: 10px;
   right: 90px;
   z-index: 2;
   background: url("smileband.jpg") no-repeat;
@@ -302,12 +303,26 @@
   margin-right: -240px;
   padding-top: 10px;
   position: absolute;
-  top: 8165px;
+  top: 7165px;
   right: -500px;
   z-index: 16;
   background: url("madeinheaven.jpg") no-repeat;
   text-align: center;
   word-wrap: break-word;
+  font-family: 'Ubuntu', sans-serif;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  color: #FFF;
+  font-size: 32px;
+  transition: all 1s;
+}
+#closingremarks {
+  width: 1200px;
+  height: 800px;
+  position: absolute;
+  top: 7500px;
+  z-index: 17;
+  background: url("queenclosing.jpg") no-repeat;
+  text-align: center;
   font-family: 'Ubuntu', sans-serif;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   color: #FFF;

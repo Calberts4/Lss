@@ -21,6 +21,8 @@ var comfirming = document.getElementById("comfirming");
 var death = document.getElementById("death");
 var phoenixtrust = document.getElementById("phoenixtrust");
 var lastalbum = document.getElementById("lastalbum");
+var deaconleaves = document.getElementById("deaconleaves");
+var closingremarks = document.getElementById("closingremarks");
 
 var out ="-500px";
 var center = "50%";
@@ -48,13 +50,13 @@ var center = "50%";
       smile.classList.add("invisible");
     }
 
-    if (distance > 1080) {
+    if (distance > 1110) {
    smile.style.top = 1 + distance * 0.99 + "px";
  }else{
    smile.style.top = 1 + distance + "px";
    }
 
-if (distance >1080) {
+if (distance >1110) {
   smile.style.right = out;
   smile.classList.add("invisible");
   form.style.left = center;
@@ -63,12 +65,12 @@ if (distance >1080) {
   form.style.left = out;
   form.classList.add("invisible");
 }
-if (distance > 1470) {
+if (distance > 1510) {
 form.style.top = 1 + distance * 0.99 + "px";
 }else{
 form.style.top = 1 + distance + "px";
 }
-if (distance >1470) {
+if (distance >1510) {
   form.style.left = out;
   form.classList.add("invisible");
   debut.style.right = center;
@@ -77,12 +79,12 @@ if (distance >1470) {
   debut.style.right = out;
   debut.classList.add("invisible");
 }
-if (distance > 1840) {
+if (distance > 1910) {
 debut.style.top = 1 + distance * 0.99 + "px";
 }else{
 debut.style.top = 1 + distance + "px";
 }
-if (distance >1840) {
+if (distance >1910) {
   debut.style.right = out;
   debut.classList.add("invisible");
   sheerheartattack.style.left = center;
@@ -91,12 +93,12 @@ if (distance >1840) {
   sheerheartattack.style.left = out;
   sheerheartattack.classList.add("invisible");
 }
-if (distance > 2210) {
+if (distance > 2310) {
 sheerheartattack.style.top = 1 + distance * 0.99 + "px";
 }else{
 sheerheartattack.style.top = 1 + distance + "px";
 }
-if (distance >2210) {
+if (distance >2310) {
   sheerheartattack.style.left = out;
   sheerheartattack.classList.add("invisible");
   nightattheopera.style.right = center;
@@ -105,12 +107,12 @@ if (distance >2210) {
   nightattheopera.style.right = out;
   nightattheopera.classList.add("invisible");
 }
-if (distance > 2580) {
+if (distance > 2680) {
 nightattheopera.style.top = 1 + distance * 0.99 + "px";
 }else{
 nightattheopera.style.top = 1 + distance + "px";
 }
-if (distance > 2580) {
+if (distance > 2680) {
   nightattheopera.style.right = out;
   nightattheopera.classList.add("invisible");
   dayattheraces.style.left = center;
@@ -119,12 +121,12 @@ if (distance > 2580) {
   dayattheraces.style.left = out;
   dayattheraces.classList.add("invisible");
 }
-if (distance > 2950) {
+if (distance > 3050) {
 dayattheraces.style.top = 1 + distance * 0.99 + "px";
 }else{
 dayattheraces.style.top = 1 + distance + "px";
 }
-if (distance > 2950) {
+if (distance > 3050) {
   dayattheraces.style.left = out;
   dayattheraces.classList.add("invisible");
   wewillrockyou.style.right = center;
@@ -133,12 +135,12 @@ if (distance > 2950) {
   wewillrockyou.style.right = out;
   wewillrockyou.classList.add("invisible");
 }
-if (distance > 3320) {
+if (distance > 3420) {
 wewillrockyou.style.top = 1 + distance * 0.99 + "px";
 }else{
 wewillrockyou.style.top = 1 + distance + "px";
 }
-if (distance > 3320) {
+if (distance > 3420) {
   wewillrockyou.style.right = out;
   wewillrockyou.classList.add("invisible");
   topoftheworld.style.left = center;
@@ -147,12 +149,12 @@ if (distance > 3320) {
   topoftheworld.style.left = out;
   topoftheworld.classList.add("invisible");
 }
-if (distance > 3690) {
+if (distance > 3790) {
 topoftheworld.style.top = 1 + distance * 0.99 + "px";
 }else{
 topoftheworld.style.top = 1 + distance + "px";
 }
-if (distance >3690) {
+if (distance >3790) {
   topoftheworld.style.left = out;
   topoftheworld.classList.add("invisible");
   breakfree.style.right = center;
@@ -161,12 +163,12 @@ if (distance >3690) {
   breakfree.style.right = out;
   breakfree.classList.add("invisible");
 }
-if (distance > 4060) {
+if (distance > 4160) {
 breakfree.style.top = 1 + distance * 0.99 + "px";
 }else{
 breakfree.style.top = 1 + distance + "px";
 }
-if (distance >4060) {
+if (distance >4160) {
   breakfree.style.right = out;
   breakfree.classList.add("invisible");
   liveaid.style.left = center;
@@ -175,12 +177,12 @@ if (distance >4060) {
   liveaid.style.left = out;
   liveaid.classList.add("invisible");
 }
-if (distance > 4430) {
+if (distance > 4530) {
 liveaid.style.top = 1 + distance * 0.99 + "px";
 }else{
 liveaid.style.top = 1 + distance + "px";
 }
-if (distance >4430) {
+if (distance >4530) {
   liveaid.style.left = out;
   liveaid.classList.add("invisible");
   daysofourlives.style.right = center;
@@ -189,12 +191,12 @@ if (distance >4430) {
   daysofourlives.style.right = out;
   daysofourlives.classList.add("invisible");
 }
-if (distance > 4800) {
+if (distance > 4900) {
 daysofourlives.style.top = 1 + distance * 0.99 + "px";
 }else{
 daysofourlives.style.top = 1 + distance + "px";
 }
-if (distance >4800) {
+if (distance >4900) {
   daysofourlives.style.right = out;
   daysofourlives.classList.add("invisible");
   comfirming.style.left = center;
@@ -203,12 +205,12 @@ if (distance >4800) {
   comfirming.style.left = out;
   comfirming.classList.add("invisible");
 }
-if (distance > 5170) {
+if (distance > 5270) {
 comfirming.style.top = 1 + distance * 0.99 + "px";
 }else{
 comfirming.style.top = 1 + distance + "px";
 }
-if (distance >5170) {
+if (distance >5270) {
   comfirming.style.left = out;
   comfirming.classList.add("invisible");
   death.style.right = center;
@@ -217,12 +219,12 @@ if (distance >5170) {
   death.style.right = out;
   death.classList.add("invisible");
 }
-if (distance > 5540) {
+if (distance > 5640) {
 death.style.top = 1 + distance * 0.99 + "px";
 }else{
 death.style.top = 1 + distance + "px";
 }
-if (distance >5540) {
+if (distance >5640) {
   death.style.right = out;
   death.classList.add("invisible");
   phoenixtrust.style.left = center;
@@ -231,12 +233,12 @@ if (distance >5540) {
   phoenixtrust.style.left = out;
   phoenixtrust.classList.add("invisible");
 }
-if (distance > 5910) {
+if (distance > 6040) {
 phoenixtrust.style.top = 1 + distance * 0.99 + "px";
 }else{
 phoenixtrust.style.top = 1 + distance + "px";
 }
-if (distance >5910) {
+if (distance >6040) {
   phoenixtrust.style.left = out;
   phoenixtrust.classList.add("invisible");
   lastalbum.style.right = center;
@@ -245,16 +247,16 @@ if (distance >5910) {
   lastalbum.style.right = out;
   lastalbum.classList.add("invisible");
 }
-if (distance > 6280) {
+if (distance > 6340) {
 lastalbum.style.top = 1 + distance * 0.99 + "px";
 }else{
 lastalbum.style.top = 1 + distance + "px";
 }
-if (distance >6280) {
+if (distance >6340) {
   lastalbum.style.right = out;
   lastalbum.classList.add("invisible");
-  fin.style.right = "-1000px";
-} else {
-  fin.style.right = "500px";
+  closingremarks.style.left = "0";
+  } else {
+
 }
 }
