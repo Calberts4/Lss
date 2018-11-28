@@ -320,12 +320,8 @@
   height: 800px;
   position: absolute;
   top: 7500px;
-  z-index: 17;
+  left: 500px
+  z-index: 16;
   background: url("queenclosing.jpg") no-repeat;
-  text-align: center;
-  font-family: 'Ubuntu', sans-serif;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  color: #FFF;
-  font-size: 32px;
   transition: all 1s;
 }

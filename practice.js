@@ -21,7 +21,6 @@ var comfirming = document.getElementById("comfirming");
 var death = document.getElementById("death");
 var phoenixtrust = document.getElementById("phoenixtrust");
 var lastalbum = document.getElementById("lastalbum");
-var deaconleaves = document.getElementById("deaconleaves");
 var closingremarks = document.getElementById("closingremarks");
 
 var out ="-500px";
@@ -255,8 +254,7 @@ lastalbum.style.top = 1 + distance + "px";
 if (distance >6340) {
   lastalbum.style.right = out;
   lastalbum.classList.add("invisible");
-  closingremarks.style.left = "0";
   } else {
-
 }
+
 }
