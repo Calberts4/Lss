@@ -5,7 +5,10 @@ window.onscroll = function(){
 var bandlogo = document.getElementById("bandlogo");
 var curtain1 = document.getElementById("curtain1");
 var curtain2 = document.getElementById("curtain2");
-var fin = document.getElementById("fin");
+var bandlogo2 = document.getElementById("bandlogo2");
+var curtain3 = document.getElementById("curtain3");
+var curtain4 = document.getElementById("curtain4");
+
 var smile = document.getElementById("smile");
 var form = document.getElementById("form");
 var debut = document.getElementById("debut");
@@ -256,5 +259,53 @@ if (distance >6340) {
   lastalbum.classList.add("invisible");
   } else {
 }
-
+if (distance >6350) {
+  closingremarks.classList.remove("invisible");
+  } else {
+  closingremarks.classList.add("invisible");
+}
+if (distance > 6340) {
+  closingremarks.style.top = 1 + distance * 0.99 + "px";
+}else{
+  closingremarks.style.top = 1 + distance + "px";
+}
+if (distance > 6500) {
+  closingremarks.style.top = 1 + distance * 0.99 + "px";
+}else{
+  closingremarks.style.top = 1 + distance + "px";
+}
+if (distance > 6500) {
+  closingremarks.background ="queenking.jpg"
+}else{
+  closingremarks.background="queenhard.jpg"
+}
+if (distance > 6800) {
+  closingremarks.background = "queenred.jpg"
+}else{
+  closingremarks.background = "queenking.jpg"
+}
+if (distance > 6800) {
+  closingremarks.background = "queenmdb.jpg"
+}else{
+  closingremarks.background = "queenred.jpg"
+}
+if (distance >9330) {
+  closingremarks.classList.add("invisible");
+  } else {
+}
+if(distance >9300){
+  bandlogo2.style.top = "9500px";
+  bandlogo2.classList.remove("invisible");
+  curtain3.style.left = "0";
+  curtain4.style.right ="0";
+  curtain3.classList.remove("invisible");
+  curtain4.classList.remove("invisible");
+}else{
+  bandlogo2.style.top = "9500px";
+  bandlogo2.classList.add("invisible");
+  curtain3.style.left = out;
+  curtain4.style.right = out;
+  curtain3.classList.add("invisible");
+  curtain4.classList.add("invisible");
+  }
 }

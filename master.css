@@ -15,16 +15,35 @@
   z-index: 101;
   transition: all 2.5s;
 }
-#fin{
-  height:100%;
-  width:100%;
-  margin-right: 500px;
-  background: url("fin.png") no-repeat;
-  position: absolute;
-  top: 6350px;
-  right:-1000px;
+#bandlogo2{
+  height: 100%;
+  width: 100%;
+  background: url("bandlogo.png") no-repeat;
+  position:absolute;
+  top: 9000px;
+  left: 34%;
   z-index: 101;
-  transition: all 2.5s;
+  transition: all 3s;
+}
+#curtain3 {
+  height: 100%;
+  width: 50%;
+  background: url("curtain3.png") no-repeat;
+  position: absolute;
+  top:9330px;
+  left:0;
+  z-index: 100;
+  transition: all 3s;
+}
+#curtain4 {
+  height: 100%;
+  width: 50%;
+  background: url("curtain3.png") no-repeat;
+  position: absolute;
+  top:9330px;
+  right:0;
+  z-index: 100;
+  transition: all 3s;
 }
 #curtain1 {
   height: 100%;
@@ -319,9 +338,9 @@
   width: 1200px;
   height: 800px;
   position: absolute;
-  top: 7500px;
-  left: 500px
+  top: 6300px;
+  left: 25px;
   z-index: 16;
-  background: url("queenclosing.jpg") no-repeat;
-  transition: all 1s;
+  background: url("queenhard.jpg") no-repeat;
+  transition: all 3s;
 }
