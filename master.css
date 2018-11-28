@@ -30,7 +30,7 @@
   width: 50%;
   background: url("curtain3.png") no-repeat;
   position: absolute;
-  top:9330px;
+  top:9000px;
   left:0;
   z-index: 100;
   transition: all 3s;
@@ -40,7 +40,7 @@
   width: 50%;
   background: url("curtain3.png") no-repeat;
   position: absolute;
-  top:9330px;
+  top:9000px;
   right:0;
   z-index: 100;
   transition: all 3s;
