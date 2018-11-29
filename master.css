@@ -68,7 +68,7 @@
 #consert{
   height: 100%;
   width:100%;
-  background: url("queenliveaid.jpg") no-repeat;
+  background: url("queenliveaid.gif") no-repeat;
   position; absolute;
   top:0;
   right:0;
@@ -85,12 +85,23 @@
   right: 90px;
   z-index: 2;
   background: url("smileband.jpg") no-repeat;
+  transition: all 1s;
+}
+#smiletext {
+  width: 480px;
+  height: 480px;
+  margin-right: -240px;
+  padding-top: 10px;
+  position: absolute;
+  top: 10px;
+  right: 90px;
+  z-index: 2;
   text-align: center;
   font-family: 'Ubuntu', sans-serif;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   color: #FFF;
   font-size: 32px;
-  transition: all 1s;
+  transition: all 2s;
 }
 .invisible{
   opacity: 0;
@@ -105,12 +116,23 @@
   left: 90px;
   z-index: 3;
   background: url("feb11971.jpg")no-repeat;
+  transition: all 1s;
+}
+#formtext {
+  width: 480px;
+  height: 480px;
+  margin-left: -240px;
+  padding-top: 10px;
+  position: absolute;
+  top: 1275px;
+  left: 90px;
+  z-index: 3;
   text-align: center;
   font-family: 'Ubuntu', sans-serif;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   color: #FFF;
   font-size: 32px;
-  transition: all 1s;
+  transition: all 2s;
 }
 #debut {
   width: 480px;
