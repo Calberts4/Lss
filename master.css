@@ -338,9 +338,49 @@
   width: 1200px;
   height: 800px;
   position: absolute;
-  top: 6300px;
+  top: 6350px;
   left: 25px;
   z-index: 16;
   background: url("queenhard.jpg") no-repeat;
+  transition: all 3s;
+}
+  #closingremarks2 {
+    width: 1200px;
+    height: 800px;
+    position: absolute;
+    top: 6650px;
+    left: 25px;
+    z-index: 16;
+    background: url("queenking.jpeg") no-repeat;
+    transition: all 3s;
+}
+#closingremarks3 {
+  width: 1200px;
+  height: 800px;
+  position: absolute;
+  top: 7250px;
+  left: 25px;
+  z-index: 16;
+  background: url("queenred.jpg") no-repeat;
+  transition: all 3s;
+}
+#closingremarks4 {
+  width: 1200px;
+  height: 800px;
+  position: absolute;
+  top: 7750px;
+  left: 25px;
+  z-index: 16;
+  background: url("queenmdb.jpg") no-repeat;
+  transition: all 3s;
+}
+#closingremarks5 {
+  width: 1200px;
+  height: 800px;
+  position: absolute;
+  top: 6300px;
+  left: 25px;
+  z-index: 16;
+  background: url("queengratesthits.jpg") no-repeat;
   transition: all 3s;
 }

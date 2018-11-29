@@ -1,13 +1,16 @@
 window.onscroll = function(){
 
   var distance = window.pageYOffset;
-  console.log(- distance);
+  console.log(distance);
+
 var bandlogo = document.getElementById("bandlogo");
 var curtain1 = document.getElementById("curtain1");
 var curtain2 = document.getElementById("curtain2");
 var bandlogo2 = document.getElementById("bandlogo2");
 var curtain3 = document.getElementById("curtain3");
 var curtain4 = document.getElementById("curtain4");
+
+var smilesong = new Pizzicato.Sound('doingallright.mp3');
 
 var smile = document.getElementById("smile");
 var form = document.getElementById("form");
@@ -25,7 +28,10 @@ var death = document.getElementById("death");
 var phoenixtrust = document.getElementById("phoenixtrust");
 var lastalbum = document.getElementById("lastalbum");
 var closingremarks = document.getElementById("closingremarks");
-
+var closingremarks2 = document.getElementById("closingremarks");
+var closingremarks3 = document.getElementById("closingremarks");
+var closingremarks4 = document.getElementById("closingremarks");
+var closingremarks5 = document.getElementById("closingremarks");
 var out ="-500px";
 var center = "50%";
   if(distance >5){
@@ -45,8 +51,10 @@ var center = "50%";
     }
 
     if (distance >710) {
-      smile.style.right = center;
-      smile.classList.remove("invisible");
+      smilesong.play();
+      // smile.style.right = center;
+      // smile.classList.remove("invisible");
+
     } else {
       smile.style.right = out;
       smile.classList.add("invisible");
@@ -59,6 +67,7 @@ var center = "50%";
    }
 
 if (distance >1110) {
+  smilesong.stop();
   smile.style.right = out;
   smile.classList.add("invisible");
   form.style.left = center;
@@ -264,34 +273,54 @@ if (distance >6350) {
   } else {
   closingremarks.classList.add("invisible");
 }
-if (distance > 6340) {
-  closingremarks.style.top = 1 + distance * 0.99 + "px";
+if (distance > 6650) {
+closingremarks.style.top = 1 + distance * 0.99 + "px";
 }else{
-  closingremarks.style.top = 1 + distance + "px";
+closingremarks.style.top = 1 + distance + "px";
 }
-if (distance > 6500) {
-  closingremarks.style.top = 1 + distance * 0.99 + "px";
-}else{
-  closingremarks.style.top = 1 + distance + "px";
-}
-if (distance > 6500) {
-  closingremarks.background = ("queenking.jpg");
-}else{
-  closingremarks.background = ("queenhard.jpg");
-}
-if (distance > 6800) {
-  closingremarks.background = "queenred.jpg"
-}else{
-  closingremarks.background = "queenking.jpg"
-}
-if (distance > 6800) {
-  closingremarks.background = "queenmdb.jpg"
-}else{
-  closingremarks.background = "queenred.jpg"
-}
-if (distance >9330) {
+if (distance > 6650) {
   closingremarks.classList.add("invisible");
+}else{
+  closingremarks2.classList.remove("invisible");
+}
+if (distance > 7250) {
+  closingremarks2.style.top = 1 + distance * 0.99 + "px";
+}else{
+  closingremarks2.style.top = 1 + distance + "px";
+}
+if (distance > 7250) {
+  closingremarks2.classList.add("invisible");
+}else{
+  closingremarks3.classList.remove("invisible");
+}
+if (distance > 7750) {
+  closingremarks3.style.top = 1 + distance * 0.99 + "px";
+}else{
+  closingremarks3.style.top = 1 + distance + "px";
+}
+if (distance > 7750) {
+  closingremarks3.classList.add("invisible");
+}else{
+  closingremarks4.classList.remove("invisible");
+}
+if (distance > 8250) {
+  closingremarks4.style.top = 1 + distance * 0.99 + "px";
   } else {
+    closingremarks4.style.top = 1 + distance + "px";
+}
+if (distance > 8250) {
+  closingremarks4.classList.add("invisible");
+}else{
+  closingremarks5.classList.add("invisible");
+}
+if (distance > 8750) {
+  closingremarks4.style.top = 1 + distance * 0.99 + "px";
+  } else {
+    closingremarks4.style.top = 1 + distance + "px";
+}
+if (distance > 8250) {
+  closingremarks5.classList.add("invisible");
+}else{
 }
 if(distance >9300){
   bandlogo2.style.top = "9500px";
