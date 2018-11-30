@@ -34,7 +34,7 @@ var closingremarks2 = document.getElementById("closingremarks");
 var closingremarks3 = document.getElementById("closingremarks");
 var closingremarks4 = document.getElementById("closingremarks");
 var closingremarks5 = document.getElementById("closingremarks");
-var out ="-500px";
+var out ="-686px";
 var center = "50%";
 var center2 = "25%";
 var center3 = "75%";
@@ -53,30 +53,29 @@ var center3 = "75%";
     curtain1.classList.remove("invisible");
     curtain2.classList.remove("invisible");
     }
-
-    if (distance >700) {
-      // smilesong.play();
-      smile.style.right = center;
+    if (distance >441) {
       smile.classList.remove("invisible");
       smiletext.classList.add("invisible");
     } else {
-      smile.style.right = out;
       smile.classList.add("invisible");
     }
-    if (distance >1090) {
+    if (distance >860) {
       smile.style.right = center3;
-      smiletext.style.right = center2;
-      smiletext.classList.remove("invisible");
     } else {
       smile.style.right = center;
       smile.style.right = out;
+    }
+    if (distance >865) {
+      smiletext.style.right = center2;
+      smiletext.classList.remove("invisible");
+    } else {
       smiletext.classList.add("invisible");
     }
-    if (distance > 1210) {
-   smile.style.top = 50 + distance * 0.99 + "px";
+    if (distance > 560) {
+   smile.style.top = -100 + distance * 0.99 + "px";
    smiletext.style.top = 50 + distance * 0.99 + "px";
  }else{
-   smile.style.top = 50 + distance + "px";
+   smile.style.top = -100 + distance + "px";
    smiletext.style.top = 50 + distance + "px";
    }
 
