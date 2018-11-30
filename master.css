@@ -2,7 +2,7 @@
   opacity: 0;
 }
 #container {
-  height:12678px;
+  height:10586px;
   width: 100%;
   position: relative;
   background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(25,0,0,1)), color-stop(100%, rgba(140,4,16,1)));
@@ -497,53 +497,61 @@
   font-size: 32px;
   transition: all 2s;
 }
-#closingremarks {
-  width: 1200px;
-  height: 800px;
+#deaconleaves {
+  width: 480px;
+  height: 480px;
+  margin-left: -240px;
+  padding-top: 10px;
   position: absolute;
-  top: 6350px;
-  left: 25px;
+  top: 7165px;
+  left: -250px;
   z-index: 16;
-  background: url("queenhard.jpg") no-repeat;
-  transition: all 3s;
+  background: url("deaconleaves.jpg") no-repeat;
+  transition: all 1s;
 }
-  #closingremarks2 {
-    width: 1200px;
-    height: 800px;
-    position: absolute;
-    top: 6650px;
-    left: 25px;
-    z-index: 16;
-    background: url("queenking.jpeg") no-repeat;
-    transition: all 3s;
-}
-#closingremarks3 {
-  width: 1200px;
-  height: 800px;
+#deaconleavestext {
+  width: 480px;
+  height: 480px;
+  margin-left: -240px;
+  padding-top: 10px;
   position: absolute;
-  top: 7250px;
-  left: 25px;
+  top: 7165px;
+  left: -500px;
   z-index: 16;
-  background: url("queenred.jpg") no-repeat;
-  transition: all 3s;
+  text-align: center;
+  word-wrap: break-word;
+  font-family: 'Ubuntu', sans-serif;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  color: #FFF;
+  font-size: 32px;
+  transition: all 2s;
 }
-#closingremarks4 {
-  width: 1200px;
-  height: 800px;
+#present {
+  width: 480px;
+  height: 480px;
+  margin-right: -240px;
+  padding-top: 10px;
   position: absolute;
-  top: 7750px;
-  left: 25px;
+  top: 7165px;
+  right: -250px;
   z-index: 16;
-  background: url("queenmdb.jpg") no-repeat;
-  transition: all 3s;
+  background: url("present.jpg") no-repeat;
+  transition: all 1s;
 }
-#closingremarks5 {
-  width: 1200px;
-  height: 800px;
+#presenttext {
+  width: 480px;
+  height: 480px;
+  margin-right: -240px;
+  padding-top: 10px;
   position: absolute;
-  top: 6300px;
-  left: 25px;
+  top: 7165px;
+  right: -500px;
   z-index: 16;
-  background: url("queengratesthits.jpg") no-repeat;
-  transition: all 3s;
+  text-align: center;
+  word-wrap: break-word;
+  font-family: 'Ubuntu', sans-serif;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  color: #FFF;
+  font-size: 32px;
+  transition: all 2s;
 }
