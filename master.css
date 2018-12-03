@@ -2,7 +2,7 @@
   opacity: 0;
 }
 #container {
-  height:10586px;
+  height:10800px;
   width: 100%;
   position: relative;
   background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(25,0,0,1)), color-stop(100%, rgba(140,4,16,1)));
@@ -18,13 +18,13 @@
   z-index: 101;
   transition: all 2.5s;
 }
-#bandlogo2{
+#greatesthits{
   height: 100%;
   width: 100%;
-  background: url("bandlogo.png") no-repeat;
+  background: url("queengratesthits.jpg") no-repeat;
   position:absolute;
   top: 9000px;
-  left: 34%;
+  left: 2%;
   z-index: 101;
   transition: all 3s;
 }
@@ -33,7 +33,7 @@
   width: 50%;
   background: url("curtain3.png") no-repeat;
   position: absolute;
-  top:11810px;
+  top:8327px;
   left:0;
   z-index: 100;
   transition: all 3s;
@@ -43,7 +43,7 @@
   width: 50%;
   background: url("curtain3.png") no-repeat;
   position: absolute;
-  top:11810px;
+  top:8327px;
   right:0;
   z-index: 100;
   transition: all 3s;
