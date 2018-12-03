@@ -3,7 +3,7 @@
 }
 #container {
   height:10800px;
-  width: 100%;
+  width: 1280px;
   position: relative;
   background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(25,0,0,1)), color-stop(100%, rgba(140,4,16,1)));
   overflow: hidden;
@@ -13,6 +13,7 @@
   width: 100%;
   background: url("bandlogo.png") no-repeat;
   position:absolute;
+  overflow: hidden;
   top: 100px;
   left: 34%;
   z-index: 101;
@@ -23,6 +24,7 @@
   width: 100%;
   background: url("queengratesthits.jpg") no-repeat;
   position:absolute;
+    overflow: hidden;
   top: 9000px;
   left: 2%;
   z-index: 101;
@@ -33,6 +35,7 @@
   width: 50%;
   background: url("curtain3.png") no-repeat;
   position: absolute;
+    overflow: hidden;
   top:8327px;
   left:0;
   z-index: 100;
@@ -43,6 +46,7 @@
   width: 50%;
   background: url("curtain3.png") no-repeat;
   position: absolute;
+    overflow: hidden;
   top:8327px;
   right:0;
   z-index: 100;
@@ -53,6 +57,7 @@
   width: 50%;
   background: url("curtain3.png") no-repeat;
   position: absolute;
+    overflow: hidden;
   top:0;
   left:0;
   z-index: 100;
@@ -63,6 +68,7 @@
   width: 50%;
   background: url("curtain3.png") no-repeat;
   position: absolute;
+    overflow: hidden;
   top:0;
   right:0;
   z-index: 100;
@@ -74,6 +80,7 @@
   margin-right: -240px;
   padding-top: 10px;
   position: absolute;
+    overflow: hidden;
   top: 10px;
   right: 50%;
   z-index: 2;
@@ -86,6 +93,7 @@
   margin-right: -240px;
   padding-top: 10px;
   position: absolute;
+    overflow: hidden;
   top: 10px;
   right: 90px;
   z-index: 2;
@@ -102,6 +110,7 @@
   margin-left: -240px;
   padding-top: 10px;
   position: absolute;
+    overflow: hidden;
   top: 1275px;
   left: 90px;
   z-index: 3;
@@ -114,6 +123,7 @@
   margin-left: -240px;
   padding-top: 10px;
   position: absolute;
+    overflow: hidden;
   top: 1275px;
   left: 90px;
   z-index: 3;
@@ -130,6 +140,7 @@
   margin-right: -240px;
   padding-top: 10px;
   position: absolute;
+    overflow: hidden;
   top: 1805px;
   right:-500px;
   z-index: 4;
@@ -143,6 +154,7 @@
   margin-right: -240px;
   padding-top: 10px;
   position: absolute;
+    overflow: hidden;
   top: 1805px;
   right:-500px;
   z-index: 4;
@@ -159,6 +171,7 @@
   margin-left: -240px;
   padding-top: 10px;
   position: absolute;
+    overflow: hidden;
   top: 2335px;
   left: -500px;
   z-index: 5;
@@ -171,6 +184,7 @@
   margin-left: -240px;
   padding-top: 10px;
   position: absolute;
+    overflow: hidden;
   top: 2335px;
   left: -500px;
   z-index: 5;
@@ -187,6 +201,7 @@
   margin-right: -240px;
   padding-top: 10px;
   position: absolute;
+    overflow: hidden;
   top: 2865px;
   right:-500px;
   z-index: 6;
@@ -204,6 +219,7 @@
   margin-right: -240px;
   padding-top: 10px;
   position: absolute;
+    overflow: hidden;
   top: 2865px;
   right:-500px;
   z-index: 6;
@@ -220,6 +236,7 @@
   margin-left: -240px;
   padding-top: 10px;
   position: absolute;
+    overflow: hidden;
   top: 3395px;
   left:-500px;
   z-index: 7;
@@ -232,6 +249,7 @@
   margin-left: -240px;
   padding-top: 10px;
   position: absolute;
+    overflow: hidden;
   top: 3395px;
   left:-500px;
   z-index: 7;
@@ -248,6 +266,7 @@
   margin-right: -240px;
   padding-top: 10px;
   position: absolute;
+    overflow: hidden;
   top:3925px;
   right:-500px;
   z-index: 8;
@@ -260,6 +279,7 @@
   margin-right: -240px;
   padding-top: 10px;
   position: absolute;
+    overflow: hidden;
   top:3925px;
   right:-500px;
   z-index: 8;
@@ -276,6 +296,7 @@
   margin-left: -240px;
   padding-top: 10px;
   position: absolute;
+    overflow: hidden;
   top: 4455px;
   left:-500px;
   z-index: 9;
@@ -288,6 +309,7 @@
   margin-left: -240px;
   padding-top: 10px;
   position: absolute;
+    overflow: hidden;
   top: 4455px;
   left:-500px;
   z-index: 9;
@@ -304,6 +326,7 @@
   margin-right: -240px;
   padding-top: 10px;
   position: absolute;
+    overflow: hidden;
   top: 4985px;
   right:-500px;
   z-index: 10;
@@ -316,6 +339,7 @@
   margin-right: -240px;
   padding-top: 10px;
   position: absolute;
+    overflow: hidden;
   top: 4985px;
   right:-500px;
   z-index: 10;
@@ -332,6 +356,7 @@
   margin-left: -240px;
   padding-top: 10px;
   position: absolute;
+    overflow: hidden;
   top: 5515px;
   left: -500px;
   background: url("liveaidperform.jpg") no-repeat;
@@ -344,6 +369,7 @@
   margin-left: -240px;
   padding-top: 10px;
   position: absolute;
+    overflow: hidden;
   top: 5515px;
   left: -500px;
   z-index: 11;
@@ -360,6 +386,7 @@
   margin-right: -240px;
   padding-top: 10px;
   position: absolute;
+    overflow: hidden;
   top: 6045px;
   right: -500px;
   z-index: 12;
@@ -372,6 +399,7 @@
   margin-right: -240px;
   padding-top: 10px;
   position: absolute;
+    overflow: hidden;
   top: 6045px;
   right: -500px;
   z-index: 12;
@@ -389,6 +417,7 @@
   margin-right: -240px;
   padding-top: 10px;
   position: absolute;
+    overflow: hidden;
   top: 6575px;
   left: -500px;
   z-index: 13;
@@ -402,6 +431,7 @@
   margin-right: -240px;
   padding-top: 10px;
   position: absolute;
+    overflow: hidden;
   top: 6575px;
   left: -500px;
   z-index: 13;
@@ -418,6 +448,7 @@
   margin-right: -240px;
   padding-top: 10px;
   position: absolute;
+    overflow: hidden;
   top: 7105px;
   right: -500px;
   z-index: 14;
@@ -430,6 +461,7 @@
   margin-right: -240px;
   padding-top: 10px;
   position: absolute;
+    overflow: hidden;
   top: 7105px;
   right: -500px;
   z-index: 14;
@@ -446,6 +478,7 @@
   margin-left: -240px;
   padding-top: 10px;
   position: absolute;
+    overflow: hidden;
   top: 7635px;
   left: -500px;
   z-index: 15;
@@ -458,6 +491,7 @@
   margin-left: -240px;
   padding-top: 10px;
   position: absolute;
+    overflow: hidden;
   top: 7635px;
   left: -500px;
   z-index: 15;
@@ -474,6 +508,7 @@
   margin-right: -240px;
   padding-top: 10px;
   position: absolute;
+    overflow: hidden;
   top: 7165px;
   right: -250px;
   z-index: 16;
@@ -486,6 +521,7 @@
   margin-right: -240px;
   padding-top: 10px;
   position: absolute;
+    overflow: hidden;
   top: 7165px;
   right: -500px;
   z-index: 16;
@@ -503,6 +539,7 @@
   margin-left: -240px;
   padding-top: 10px;
   position: absolute;
+    overflow: hidden;
   top: 7165px;
   left: -250px;
   z-index: 16;
@@ -515,6 +552,7 @@
   margin-left: -240px;
   padding-top: 10px;
   position: absolute;
+    overflow: hidden;
   top: 7165px;
   left: -500px;
   z-index: 16;
@@ -532,6 +570,7 @@
   margin-right: -240px;
   padding-top: 10px;
   position: absolute;
+    overflow: hidden;
   top: 7165px;
   right: -250px;
   z-index: 16;
@@ -544,6 +583,7 @@
   margin-right: -240px;
   padding-top: 10px;
   position: absolute;
+    overflow: hidden;
   top: 7165px;
   right: -500px;
   z-index: 16;
